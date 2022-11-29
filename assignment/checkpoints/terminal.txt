@@ -1,18 +1,28 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+    A: ls - show folder contents (list directory contents)
 
 # 2 - What is the command for changing directories?
+    A: cd - change directory
 
 # 3 - What is the command for going "up" a folder (to a parent directory)?
+    A: cd .. 
 
 # 4 - What is a quick way to create a new folder?
+  A: mkdir $FOLDERNAME
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+    A1: ls run on an empty folder would show no output. The next line would listen for another command (e.g. connor@Connors-MacBook-Air new %)
+    A2: ls run on a folder with contents will print a list of the folder contents (files, directories, shortcuts, etc) to the CMD using as my lines as needed, 
+    and then listen for the next command on a new line below the list of items.
 
 # 6 - What is a quick way to create a new file?
+    A: touch $NEWFILENAME - Slick command only on Linux & MacOS. Windows Substitute commands look like a headache.
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+    connor@Connors-MacBook-Air Documents % git --version 
+    git version 2.37.1 (Apple Git-137.1)
 
 # 8 - Why would you run the command 'git status'?
 
