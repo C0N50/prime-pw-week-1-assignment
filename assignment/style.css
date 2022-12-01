@@ -1,11 +1,76 @@
 /* Give your page a fun background color */
+div.wrapping {
+    text-align: center;
+}
 
+
+
+body {
+    background-color: lightblue;
+  }
 /* Make the header and footer a different color from the background */
 
+header {
+    background-color: rgb(209, 2, 209);
+    opacity: 0.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer {
+    background-color: rgb(209, 2, 209);
+    opacity: 0.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+    color:lightblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 /* Make your p tag a different color and italic */
-
+p {
+ color:lightblue;
+ font-style: italic;
+ font-weight: bold;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size:25px;
+ padding: 5px;
+}
 /* Put a border around your image */
+img { 
+    border: 5px solid rgb(209, 173, 230);
+    border-radius: 10px;
+    padding: 0px;
+    width: 400px;
+  
+  }
 
 /* Change the font-family of your list */
+div.quote {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:lightblue;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+ol {
+    list-style-type: upper-roman; 
+    list-style-position: inside;
+    text-align:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(209, 100, 230);
+    border: 5px solid rgb(209, 173, 230);
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px 10px;
+    font-size:20px;
+}
