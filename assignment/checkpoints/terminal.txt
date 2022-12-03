@@ -26,6 +26,7 @@
 
 # 8 - Why would you run the command 'git status'?
     A: I would run git status to check for uncommited changes to the project including edits to previous files or newly created files.
+    It also shows which changes are staged for commit and which are untracked.
 
 # 9 - What does the command 'git add .' do?
     A: Git add . stages any changes in the project to be commited with the "git commit" command.

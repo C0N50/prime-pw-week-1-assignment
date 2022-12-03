@@ -17,6 +17,7 @@ header {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    border-radius: 25px;
 }
 
 footer {
@@ -26,6 +27,7 @@ footer {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    border-radius: 25px;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -66,11 +68,12 @@ ol {
     list-style-position: inside;
     text-align:left;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:rgb(209, 100, 230);
+    color:rgb(209, 110, 230);
     border: 5px solid rgb(209, 173, 230);
     margin: 10px;
     margin-left: 100px;
     margin-right: 100px;
     padding: 20px 10px;
     font-size:20px;
+    border-radius: 25px;
 }
